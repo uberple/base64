@@ -2,7 +2,7 @@
 #define BASE64_CONFIG_H
 
 #if defined(__x86_64__)
-#define HAVE_AVX2 0
+#define HAVE_AVX2 1
 #define HAVE_SSSE3 0
 #define HAVE_SSE41 0
 #define HAVE_SSE42 1
